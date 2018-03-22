@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+nav {
+  display: flex;
+  padding-top: 10px; }
+  @media (max-width: 768px) {
+    nav {
+      max-height: 70px; } }
+  nav div {
+    flex: 6; }
+    nav div a {
+      margin-left: 40px; }
+      nav div a img {
+        width: 6rem; }
+  nav ul {
+    flex: 4;
+    align-self: flex-end;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: 1.1rem; }
+    @media (max-width: 768px) {
+      nav ul {
+        display: none; } }
+    nav ul li {
+      float: left;
+      font-weight: 300; }
+      nav ul li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+      nav ul li:hover {
+        border-bottom: 2px solid blue;
+        font-weight: 900; }
+
+.QuemSomos {
+  padding-bottom: 40px; }
+  .QuemSomos h1 {
+    text-align: center;
+    color: #4285F4;
+    font-variant: small-caps;
+    font-size: 90px;
+    font-weight: 500;
+    padding-top: 20px; }
+  .QuemSomos div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    justify-content: center;
+    width: 90%; }
+    .QuemSomos div img {
+      max-width: 100%;
+      height: auto; }
+    .QuemSomos div p {
+      margin: auto;
+      text-align: left;
+      font-size: 1.3rem;
+      max-width: 500px; }
+
+.Membros {
+  background-color: #fbbc05;
+  color: white;
+  text-align: center; }
+  .Membros h1 {
+    font-variant: small-caps;
+    font-size: 90px;
+    font-weight: 500;
+    padding-top: 20px; }
+    @media (max-width: 768px) {
+      .Membros h1 {
+        font-size: 58px; } }
+
+.membrosContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap; }
+  .membrosContainer div {
+    margin: 30px; }
+    .membrosContainer div h2 {
+      padding-top: 10px;
+      font-size: 2rem; }
+    .membrosContainer div ul {
+      display: flex;
+      justify-content: center; }
+      .membrosContainer div ul li a {
+        display: block;
+        padding: 14px 16px; }
+
+.foto {
+  width: 200px; }
+  .foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid white; }
+
+.Eventos {
+  background-color: #4285F4;
+  color: white;
+  padding-bottom: 40px;
+  text-align: center; }
+  .Eventos h1 {
+    font-variant: small-caps;
+    font-size: 6rem;
+    font-weight: 500;
+    padding-top: 20px; }
+
+.EventosContainer {
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .EventosContainer a {
+    padding-right: 20px; }
+    .EventosContainer a img {
+      width: 100%; }
+  .EventosContainer div {
+    margin: auto 0;
+    max-width: 600px; }
+    .EventosContainer div p {
+      font-size: 2rem;
+      margin: auto; }
+
+.bemVindos {
+  background-image: url("../images/museuImperial.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-top: 2px solid rgba(23, 80, 168, 0.5);
+  border-bottom: 2px solid rgba(23, 80, 168, 0.5);
+  height: 600px; }
+
+.Contato {
+  color: #34a853;
+  text-align: center;
+  font-variant: small-caps; }
+  .Contato h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    padding-top: 20px; }
+
+.contactContainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contactContainer div img {
+    max-width: 100%;
+    height: auto;
+    margin: auto; }
+  .contactContainer p {
+    font-size: 1.3rem;
+    text-align: left;
+    max-width: 400px;
+    margin: auto 0; }
+    @media (max-width: 768px) {
+      .contactContainer p {
+        text-align: center; } }
+
+.redesSociais {
+  margin-top: 40px; }
+  .redesSociais h2 {
+    font-size: 2rem; }
+  .redesSociais ul {
+    display: flex;
+    justify-content: center; }
+    .redesSociais ul li {
+      padding: 5% 5%;
+      width: 40px; }
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+ul, li {
+  list-style: none; }
+
+a, a:hover {
+  text-decoration: none;
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

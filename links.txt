@@ -1,0 +1,21 @@
+Luan Francisco
+face: https://www.facebook.com/dudow8
+github: https://github.com/dudow8
+likdin: https://www.linkedin.com/in/luannfrancisco/
+
+Ricardo Santos
+face: https://www.facebook.com/KaduStefani
+github: https://github.com/RicardoStefani
+likdin: https://www.linkedin.com/in/ricardo-stefani-santos-b1928a29/?locale=en_US
+
+
+Frederico Gomes
+face: https://www.facebook.com/gomesfredderico
+github:
+likdin: https://www.linkedin.com/in/gomes-frederico/
+
+GDG
+Facebook: https://www.facebook.com/GDGPetropolis/?pnref=lhc
+meetup
+github https://github.com/GDGPetropolis
+34A853
